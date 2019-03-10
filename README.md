@@ -69,6 +69,7 @@ pyThaiNLP uses this dataset as part of its [text classification benchmark](https
 | ULMFit Semi-supervised    | 0.73119     | 0.75859      |
 | ULMFit Semi-supervised Repeated One Time    | **0.73372**     | **0.75968**      |
 
+See classification codes in `competition.ipynb` and data exploration in `exploration.ipynb`
 
 ## Personal data
 
