@@ -1,6 +1,6 @@
 # Wisesight-Sentiment Corpus
 
-Social media message with sentiment label (positive, neutral, negative). Released to public domain.
+Social media message with sentiment label (positive, neutral, negative, question). Released to public domain.
 
 Last update: 2019-02-19 19:20
 
@@ -28,16 +28,21 @@ Last update: 2019-02-19 19:20
 
 ## File structure
 
-- All files are UTF-8 encoded plaintext
-- One message per line
-  - For a message with multiple lines, a newline character will be replaced with a space - so it will come one line
-- Each sentiment label are kept in a separated file:
-  - `pos.txt` - messages with positive sentiment value (~4,800 messages)
-  - `neu.txt` - messages with neutral sentiment value (~16,000)
-  - `neg.txt` - messages with negative sentiment value (~6,600)
-- Additional file:
-  - `q.txt` - questions (a message in this file may also included in pos/neu/neg.txt)
+The files are stored in `wisesight-sentiment.zip` in the same format as in the competition [WISESIGHT Sentiment Analysis](https://www.kaggle.com/c/wisesight-sentiment/):
 
+* `train.txt` - The training data. Each line is a piece of text.
+* `train_label.txt` - The label of the training data. Each line is the label corresponding to the same line in train.txt.
+* `test.txt` - The test data. Each line is a piece of text.
+
+Other details include:
+* All files are UTF-8 encoded plaintext
+* One message per line
+* For a message with multiple lines, a newline character will be replaced with a space - so it will come one line
+* Messages with positive sentiment value (~4,500 messages)
+* Messages with neutral sentiment value (~16,000)
+* Messages with negative sentiment value (~6,600)
+* Messages with questions (~500)
+* A small portion (~200) of the messages have multiple labels (duplicate entries).
 
 ## Sentiment value annotation
 
