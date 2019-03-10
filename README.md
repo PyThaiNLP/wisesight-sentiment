@@ -57,6 +57,18 @@ Other details include:
 - Saying that other product or service is better is counted as negative.
 - General information or news title tend to be counted as neutral.
 
+## Classification Benchmark
+
+pyThaiNLP uses this dataset as part of its [text classification benchmark](https://github.com/PyThaiNLP/classification-benchmarks). We use the same performance metric as [WISESIGHT Sentiment Analysis](https://www.kaggle.com/c/wisesight-sentiment/) competition which is **accuracy**.
+
+| Model               | Public Accuracy | Private Accuracy |
+|---------------------|-----------------|------------------|
+| Logistic Regression | 0.72781         | 0.7499           |
+| FastText            | 0.63144         | 0.6131           |
+| ULMFit              | 0.71259         | 0.74194          |
+| ULMFit Semi-supervised    | 0.73119     | 0.75859      |
+| ULMFit Semi-supervised Repeated One Time    | **0.73372**     | **0.75968**      |
+
 
 ## Personal data
 
