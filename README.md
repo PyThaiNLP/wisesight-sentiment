@@ -61,6 +61,8 @@ Other details include:
 
 pyThaiNLP uses this dataset as part of its [text classification benchmark](https://github.com/PyThaiNLP/classification-benchmarks). We use the same performance metric as [WISESIGHT Sentiment Analysis](https://www.kaggle.com/c/wisesight-sentiment/) competition which is **accuracy**.
 
+**Disclaimer** Note that the labels are obtained manually and are prone to errors so if you are planning to apply the models in the benchmark for real-world applications, be sure to benchmark it with **your own dataset**.
+
 | Model               | Public Accuracy | Private Accuracy |
 |---------------------|-----------------|------------------|
 | Logistic Regression | 0.72781         | 0.7499           |
