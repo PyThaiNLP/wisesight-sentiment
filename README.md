@@ -28,7 +28,7 @@ Last update: 2019-02-19 19:20
 
 ## File structure
 
-The files are stored in `wisesight-sentiment.zip` in the same format as in the competition [WISESIGHT Sentiment Analysis](https://www.kaggle.com/c/wisesight-sentiment/):
+The files are stored in `wisesight-sentiment.zip` in the same format as in the competition [WISESIGHT Sentiment Analysis](https://www.kaggle.com/t/0b22205d288143bb8672527b04690a97):
 
 * `train.txt` - The training data. Each line is a piece of text.
 * `train_label.txt` - The label of the training data. Each line is the label corresponding to the same line in train.txt.
