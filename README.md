@@ -13,7 +13,7 @@ Last update: 2019-02-19 19:20
   - Mostly **around 2016 to very early 2019**. There are also small amount of messages from other period.
 - Domains:
   - Messages are mostly from **consumer product and service** social media accounts, including messages that interact with those accounts. Other messages may includes ones from related websites/blogs and from keyword search on social media platform.
-  - Large amount of messages are about franchise restaurant, cosmetics, alcoholic drink, music festival/concert, and car. There are also small amount of messages about politics and current affairs, including news headlines.
+  - Large amount of messages are about franchise restaurant, cosmetics, alcoholic drink, and car. There are also small amount of messages about politics and current affairs, including news headlines.
 - Public messages only:
   - This corpus includes only **"public messages"** accessible by social media platform API.
   - For Facebook, this means the public comments (everyone can see) that made on a public page.
@@ -23,7 +23,7 @@ Last update: 2019-02-19 19:20
   - Duplicated, leading, and trailing whitespaces are removed. Other punctuations, symbols, and emojis are kept intact.
   - (Mis)spellings are kept intact.
   - Messages longer than 2,000 characters are removed.
-  - Long non-Thai messages are removed. Duplicated message (exact match) are removed. **-- Keep this in mind if you're going to use this corpus statistically, as it does not quantitatively represent anything in the language register.**
+  - Long non-Thai messages are removed. Duplicated message (exact match) are removed. **-- So keep in mind that it does not statistically represent anything in the language register.**
 
 
 ## File structure
@@ -87,10 +87,10 @@ If you see any personal data still remain in the set, please tell us - so we can
 
 - If applicable, copyright of each message content belongs to the original poster.
 - Annotation data (labels) are released to public domain.
-- Wisesight (Thailand) Co., Ltd. helps facilitate the annotation, but does not necessarily agree upon the labels made by the human annotators. This annotation is for research purpose and does not reflect the professional work that Wisesight has been done for its customers.
+- [Wisesight (Thailand) Co., Ltd.](https://wisesight.com/) helps facilitate the annotation, but does not necessarily agree upon the labels made by the human annotators. This annotation is for research purpose and does not reflect the professional work that Wisesight has been done for its customers.
 - The human annotator does not necessarily agree or disagree with the message. Likewise, the label he/she made to the message does not necessarily reflect his/her personal view towards the message.
 
 
 ## Acknowledgement
 
-Thanks [PyThaiNLP](https://github.com/PyThaiNLP/pythainlp) community, Kitsuchart Pasupa (Faculty of Information Technology, King Mongkut's Institute of Technology Ladkrabang), and Ekapol Chuangsuwanich (Faculty of Engineering, Chulalongkorn University) for advice.
+Thanks [PyThaiNLP](https://github.com/PyThaiNLP/pythainlp) community, [Kitsuchart Pasupa](http://www.it.kmitl.ac.th/~kitsuchart/) (Faculty of Information Technology, King Mongkut's Institute of Technology Ladkrabang), and [Ekapol Chuangsuwanich](https://www.cp.eng.chula.ac.th/en/about/faculty/ekapolc/) (Faculty of Engineering, Chulalongkorn University) for advice.
