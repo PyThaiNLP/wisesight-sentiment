@@ -2,47 +2,42 @@
 
 Social media message with sentiment label (positive, neutral, negative, question). Released to public domain.
 
-Last update: 2019-02-19 19:20
+Last update: 2019-03-30 15:44
 
 ## Source
 
-- Language:
-  - **Thai**, virtually all of them are in Central Thai.
-  - Mostly **informal and conversational**. Some news headlines and annoucements maybe more formal, but they are minority in the corpus.
-- Time period:
-  - Mostly **around 2016 to very early 2019**. There are also small amount of messages from other period.
-- Domains:
-  - Messages are mostly from **consumer product and service** social media accounts, including messages that interact with those accounts. Other messages may includes ones from related websites/blogs and from keyword search on social media platform.
-  - Large amount of messages are about franchise restaurant, cosmetics, alcoholic drink, and car. There are also small amount of messages about politics and current affairs, including news headlines.
-- Public messages only:
-  - This corpus includes only **"public messages"** accessible by social media platform API.
+- Language: Central Thai
+- Style: Informal and conversational. With some news headlines and advertisement.
+- Time period: Around 2016 to early 2019. With small amount from other period.
+- Domains: Mixed. Majority are consumer products and services (restaurants, cosmetics, drinks, car, hotels), with some current affairs.
+- Privacy:
+  - Only messages that made available to the public on online media (websites, blogs, social network sites).
   - For Facebook, this means the public comments (everyone can see) that made on a public page.
   - Private/protected messages and messages in groups, chat, and inbox are not included.
 - Alternations and modifications:
-  - **Large amount of messages are not in their original form**, for example, **personal data are removed or masked**.
+  - Keep in mind that this corpus does not statistically represent anything in the language register.
+  - Large amount of messages are not in their original form. Personal data are removed or masked.
   - Duplicated, leading, and trailing whitespaces are removed. Other punctuations, symbols, and emojis are kept intact.
   - (Mis)spellings are kept intact.
   - Messages longer than 2,000 characters are removed.
-  - Long non-Thai messages are removed. Duplicated message (exact match) are removed. **-- So keep in mind that it does not statistically represent anything in the language register.**
+  - Long non-Thai messages are removed. Duplicated message (exact match) are removed. **-- 
 
+## Corpus file structure
 
-## File structure
-
-The files are stored in `wisesight-sentiment.zip` in the same format as in the competition [WISESIGHT Sentiment Analysis](https://www.kaggle.com/t/0b22205d288143bb8672527b04690a97):
-
-* `train.txt` - The training data. Each line is a piece of text.
-* `train_label.txt` - The label of the training data. Each line is the label corresponding to the same line in train.txt.
-* `test.txt` - The test data. Each line is a piece of text.
-
-Other details include:
-* All files are UTF-8 encoded plaintext
-* One message per line
-* For a message with multiple lines, a newline character will be replaced with a space - so it will come one line
-* Messages with positive sentiment value (~4,500 messages)
-* Messages with neutral sentiment value (~16,000)
-* Messages with negative sentiment value (~6,600)
-* Messages with questions (~500)
-* A small portion (~200) of the messages have multiple labels (duplicate entries).
+- All files are UTF-8 encoded plaintext
+- One message per line. A newline character in the original message will be replaced with a space.
+- Kaggle competition style files
+  - `train.txt` - Message for training (24,066 messages)
+  - `train_label.txt` - Label for training. Each line is the label corresponding to the same line in `train.txt`
+  - `test.txt` - Message for testing (2,674 messages)
+  - `test_label.txt` - Label for testing. Each line is the label corresponding to the same line in `test.txt`
+  - `test_majority.csv` - Sample submission in Kaggle format. Contains `neu` class as all the predictions.
+  - `test_solution.csv` - Test solution in Kaggle format.
+- One-label-one-file style files:
+  - `q.txt` (~500 messages)
+  - `neg.txt` (~6,800)
+  - `neu.txt` (~14,500)
+  - `pos.txt` (~4,700)
 
 ## Sentiment value annotation
 
@@ -59,7 +54,7 @@ Other details include:
 
 ## Classification Benchmark
 
-pyThaiNLP uses this dataset as part of its [text classification benchmark](https://github.com/PyThaiNLP/classification-benchmarks). We use the same performance metric as [WISESIGHT Sentiment Analysis](https://www.kaggle.com/c/wisesight-sentiment/) competition which is **accuracy**.
+pyThaiNLP uses this dataset as part of its [text classification benchmark](https://github.com/PyThaiNLP/classification-benchmarks). We use the same performance metric as [WISESIGHT Sentiment Analysis](https://www.kaggle.com/c/wisesight-sentiment/) competition, which is **accuracy**.
 
 **Disclaimer** Note that the labels are obtained manually and are prone to errors so if you are planning to apply the models in the benchmark for real-world applications, be sure to benchmark it with **your own dataset**.
 
@@ -73,14 +68,13 @@ pyThaiNLP uses this dataset as part of its [text classification benchmark](https
 
 See classification codes in `competition.ipynb` and data exploration in `exploration.ipynb`
 
+
 ## Personal data
 
-We trying to exclude personally identifiable information from this data set.
-
+- We trying to exclude personally identifiable information from this data set.
 - Usernames and non-public figure names are removed
 - Phone numbers are masked (e.g. 088-888-8888, 09-9999-9999, 0-2222-2222)
-
-If you see any personal data still remain in the set, please tell us - so we can remove them.
+- If you see any personal data still remain in the set, please tell us - so we can remove them.
 
 
 ## Copyright and Disclaimer
