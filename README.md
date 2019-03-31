@@ -2,16 +2,17 @@
 
 Social media message with sentiment label (positive, neutral, negative, question). Released to public domain.
 
-Last update: 2019-03-30 15:44
+Last update: 2019-03-31
 
 ## Source
 
+- Size: ~26,700 messages
 - Language: Central Thai
 - Style: Informal and conversational. With some news headlines and advertisement.
 - Time period: Around 2016 to early 2019. With small amount from other period.
 - Domains: Mixed. Majority are consumer products and services (restaurants, cosmetics, drinks, car, hotels), with some current affairs.
 - Privacy:
-  - Only messages that made available to the public on online media (websites, blogs, social network sites).
+  - Only messages that made available to the public on the internet (websites, blogs, social network sites).
   - For Facebook, this means the public comments (everyone can see) that made on a public page.
   - Private/protected messages and messages in groups, chat, and inbox are not included.
 - Alternations and modifications:
@@ -20,24 +21,25 @@ Last update: 2019-03-30 15:44
   - Duplicated, leading, and trailing whitespaces are removed. Other punctuations, symbols, and emojis are kept intact.
   - (Mis)spellings are kept intact.
   - Messages longer than 2,000 characters are removed.
-  - Long non-Thai messages are removed. Duplicated message (exact match) are removed. **-- 
+  - Long non-Thai messages are removed. Duplicated message (exact match) are removed.
 
 ## Corpus file structure
 
 - All files are UTF-8 encoded plaintext
 - One message per line. A newline character in the original message will be replaced with a space.
-- Kaggle competition style files
+- `q.txt` Questions (~500 messages)
+- `neg.txt` Message with negative sentiment (~6,800)
+- `neu.txt` Message with neutral sentiment (~14,500)
+- `pos.txt` Message with positive sentiment (~4,700)
+- Exact dataset are also provided in Kaggle competition format, inside `kaggle-competition/` directory:
   - `train.txt` - Message for training (24,066 messages)
   - `train_label.txt` - Label for training. Each line is the label corresponding to the same line in `train.txt`
   - `test.txt` - Message for testing (2,674 messages)
   - `test_label.txt` - Label for testing. Each line is the label corresponding to the same line in `test.txt`
   - `test_majority.csv` - Sample submission in Kaggle format. Contains `neu` class as all the predictions.
   - `test_solution.csv` - Test solution in Kaggle format.
-- One-label-one-file style files:
-  - `q.txt` (~500 messages)
-  - `neg.txt` (~6,800)
-  - `neu.txt` (~14,500)
-  - `pos.txt` (~4,700)
+  - Sample code for data exploration, training, and prediction are also provided.
+
 
 ## Sentiment value annotation
 
