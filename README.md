@@ -23,6 +23,7 @@ Last update: 2019-03-31
   - Messages longer than 2,000 characters are removed.
   - Long non-Thai messages are removed. Duplicated message (exact match) are removed.
 
+
 ## Corpus file structure
 
 - All files are UTF-8 encoded plaintext
@@ -41,7 +42,15 @@ Last update: 2019-03-31
   - Sample code for data exploration, training, and prediction are also provided.
 
 
-## Sentiment value annotation
+## Personal data
+
+- We trying to exclude personally identifiable information from this data set.
+- Usernames and non-public figure names are removed
+- Phone numbers are masked (e.g. 088-888-8888, 09-9999-9999, 0-2222-2222)
+- If you see any personal data still remain in the set, please tell us - so we can remove them.
+
+
+## Sentiment value annotation methodology
 
 - Sentiment values are assigned by human annotators.
 - A human annotator put his/her best effort to assign just one label, out of three, to a message.
@@ -53,30 +62,6 @@ Last update: 2019-03-31
   - In this sense, a question about a particular product could has a positive sentiment value, if it shows the interest in the product.
 - Saying that other product or service is better is counted as negative.
 - General information or news title tend to be counted as neutral.
-
-## Classification Benchmark
-
-pyThaiNLP uses this dataset as part of its [text classification benchmark](https://github.com/PyThaiNLP/classification-benchmarks). We use the same performance metric as [WISESIGHT Sentiment Analysis](https://www.kaggle.com/c/wisesight-sentiment/) competition, which is **accuracy**.
-
-**Disclaimer** Note that the labels are obtained manually and are prone to errors so if you are planning to apply the models in the benchmark for real-world applications, be sure to benchmark it with **your own dataset**.
-
-| Model               | Public Accuracy | Private Accuracy |
-|---------------------|-----------------|------------------|
-| Logistic Regression | 0.72781         | 0.7499           |
-| FastText            | 0.63144         | 0.6131           |
-| ULMFit              | 0.71259         | 0.74194          |
-| ULMFit Semi-supervised    | 0.73119     | 0.75859      |
-| ULMFit Semi-supervised Repeated One Time    | **0.73372**     | **0.75968**      |
-
-See classification codes in `competition.ipynb` and data exploration in `exploration.ipynb`
-
-
-## Personal data
-
-- We trying to exclude personally identifiable information from this data set.
-- Usernames and non-public figure names are removed
-- Phone numbers are masked (e.g. 088-888-8888, 09-9999-9999, 0-2222-2222)
-- If you see any personal data still remain in the set, please tell us - so we can remove them.
 
 
 ## Copyright and Disclaimer
