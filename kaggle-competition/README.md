@@ -1,5 +1,4 @@
-- Data files in Kaggle competition format
-- Jupyter notebook (Python) for data exploration, training, prediction, and evalutation
+This directory contains data files in Kaggle competition format and Jupyter notebook (Python) for data exploration, training, prediction, and evalutation.
 
 ## Classification Benchmark
 
