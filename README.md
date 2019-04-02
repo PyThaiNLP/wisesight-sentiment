@@ -22,7 +22,7 @@ Last update: 2019-03-31
   - (Mis)spellings are kept intact.
   - Messages longer than 2,000 characters are removed.
   - Long non-Thai messages are removed. Duplicated message (exact match) are removed.
-
+- More characteristics of the data can be explore by this [notebook](https://github.com/PyThaiNLP/wisesight-sentiment/blob/master/exploration.ipynb).
 
 ## Corpus file structure
 
