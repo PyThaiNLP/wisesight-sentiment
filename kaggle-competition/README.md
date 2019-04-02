@@ -1,4 +1,4 @@
-This directory contains data files in Kaggle competition format and Jupyter notebook (Python) for data exploration, training, prediction, and evalutation.
+This directory contains data files in Kaggle competition format and Jupyter notebook (Python) for training, prediction, and evaluation.
 
 ## Classification Benchmark
 
@@ -14,4 +14,6 @@ PyThaiNLP uses Wisesight Sentiment dataset as part of its [text classification b
 | ULMFit Semi-supervised    | 0.73119     | 0.75859      |
 | ULMFit Semi-supervised Repeated One Time    | **0.73372**     | **0.75968**      |
 
-See classification codes in `competition.ipynb` and data exploration in `exploration.ipynb`
+See classification code in `competition.ipynb`.
+
+`text_generation.ipynb` is used to generate extra training data.
