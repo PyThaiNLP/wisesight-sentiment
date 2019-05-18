@@ -1,6 +1,6 @@
 # Wisesight-Sentiment Corpus
 
-Social media message with sentiment label (positive, neutral, negative, question). Released to public domain.
+Social media message with sentiment label (positive, neutral, negative, question). **Released to public domain.**
 
 Last update: 2019-03-31
 
@@ -65,9 +65,8 @@ Last update: 2019-03-31
 
 
 ## Copyright and Disclaimer
-
 - If applicable, copyright of each message content belongs to the original poster.
-- Annotation data (labels) are released to public domain.
+- **Annotation data (labels) are released to public domain.**
 - [Wisesight (Thailand) Co., Ltd.](https://wisesight.com/) helps facilitate the annotation, but does not necessarily agree upon the labels made by the human annotators. This annotation is for research purpose and does not reflect the professional work that Wisesight has been done for its customers.
 - The human annotator does not necessarily agree or disagree with the message. Likewise, the label he/she made to the message does not necessarily reflect his/her personal view towards the message.
 
