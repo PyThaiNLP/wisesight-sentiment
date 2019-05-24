@@ -1,5 +1,7 @@
 # Wisesight-Sentiment Corpus
 
+ข้อความภาษาไทยจากสื่อสังคมออนไลน์ พร้อมกับป้ายกำกับความรู้สึก (บวก, กลางๆ, ลบ, คำถาม) รวมประมาณ 26,700 ข้อความ **เผยแพร่เป็นสมบัติสาธารณะ** 
+
 Social media message with sentiment label (positive, neutral, negative, question). **Released to public domain.**
 
 Last update: 2019-03-31
