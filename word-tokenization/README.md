@@ -9,4 +9,4 @@ Because these samples are representative of real word content, we believe having
 
 The annotation was done by several people, including Nitchakarn Chantarapratin, Pattarawat Chormai, Ponrawee Prasertsom, Jitkapat Sawatphol, Nozomi Yamada, and [Dr.Attapol Rutherford][ate].
 
-[ate] https://attapol.github.io/index.html
+[ate]: https://attapol.github.io/index.html
