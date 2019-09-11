@@ -13,6 +13,10 @@ Because these samples are representative of real world content, we believe havin
 
 ## Acknowledgement
 
-The annotation was done by several people, including Nitchakarn Chantarapratin, Pattarawat Chormai, Ponrawee Prasertsom, Jitkapat Sawatphol, Nozomi Yamada, and [Attapol Rutherford][ate].
+The annotation was done by several people, including Nitchakarn Chantarapratin, [Pattarawat Chormai][pc], [Ponrawee Prasertsom][pp], [Jitkapat Sawatphol][js], [Nozomi Yamada][ny], and [Attapol Rutherford][ar].
 
-[ate]: https://attapol.github.io/index.html
+[pc]: https://github.com/heytitle
+[pp]: https://github.com/ponrawee
+[js]: https://github.com/jitkapat
+[ny]: https://github.com/nozomiyamada
+[ar]: https://attapol.github.io/
