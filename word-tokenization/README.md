@@ -1,6 +1,6 @@
 # Wisesight Samples with Word Tokenization Label
 
-This directory contains Wisesight samples, tokenized by humans. These samples are randomly drawn from the full corpus.
+This directory contains samples of Thai social media text, tokenized by humans. These samples are randomly drawn from the full [Wisesight-Sentiment Corpus](https://github.com/PyThaiNLP/wisesight-sentiment).
 
 For `wisesight-160`, we drawn 40 samples for each label. And 250 samples each for `wisesight-1000`. 
 
@@ -13,6 +13,6 @@ Because these samples are representative of real world content, we believe havin
 
 ## Acknowledgement
 
-The annotation was done by several people, including Nitchakarn Chantarapratin, Pattarawat Chormai, Ponrawee Prasertsom, Jitkapat Sawatphol, Nozomi Yamada, and [Dr.Attapol Rutherford][ate].
+The annotation was done by several people, including Nitchakarn Chantarapratin, Pattarawat Chormai, Ponrawee Prasertsom, Jitkapat Sawatphol, Nozomi Yamada, and [Attapol Rutherford][ate].
 
 [ate]: https://attapol.github.io/index.html
