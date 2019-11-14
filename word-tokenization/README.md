@@ -1,6 +1,6 @@
 # Wisesight Samples with Word Tokenization Label
 
-This directory contains samples of Thai social media text, tokenized by humans. These samples are randomly drawn from the full [Wisesight-Sentiment Corpus](https://github.com/PyThaiNLP/wisesight-sentiment).
+This directory contains samples of Thai social media text, tokenized by humans. These samples are randomly drawn from the full [Wisesight Sentiment Corpus](https://github.com/PyThaiNLP/wisesight-sentiment).
 
 For `wisesight-160`, we drawn 40 samples for each label. And 250 samples each for `wisesight-1000`. 
 
