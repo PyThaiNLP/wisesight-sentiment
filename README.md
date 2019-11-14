@@ -1,4 +1,4 @@
-# Wisesight-Sentiment Corpus
+# Wisesight Sentiment Corpus
 [![DOI](https://zenodo.org/badge/174823035.svg)](https://zenodo.org/badge/latestdoi/174823035)
 
 
