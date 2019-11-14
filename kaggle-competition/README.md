@@ -1,4 +1,4 @@
-***Note: The most recent tutorial is being updated at https://github.com/PyThaiNLP/tutorials***
+***NOTES: The most recent tutorial is being updated at https://github.com/PyThaiNLP/tutorials***
 
 ----
 
