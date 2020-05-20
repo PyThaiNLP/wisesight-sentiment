@@ -11,6 +11,8 @@ Last update: 2019-03-31
 For `wisesight-160` and `wisesight-1000`, which are samples from this corpus in a tokenized form,
 see https://github.com/PyThaiNLP/wisesight-sentiment/tree/master/word-tokenization
 
+For data exploration and classification examples, see [Thai Text Classification Benchmarks](https://github.com/PyThaiNLP/classification-benchmarks).
+
 ## Source
 
 - Size: ~26,700 messages
