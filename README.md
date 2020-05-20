@@ -2,9 +2,9 @@
 [![DOI](https://zenodo.org/badge/174823035.svg)](https://zenodo.org/badge/latestdoi/174823035)
 
 
-ข้อความภาษาไทยจากสื่อสังคมออนไลน์ พร้อมกับป้ายกำกับความรู้สึก (บวก, กลางๆ, ลบ, คำถาม) รวมประมาณ 26,700 ข้อความ **เผยแพร่เป็นสมบัติสาธารณะ** 
+ข้อความภาษาไทยจากสื่อสังคมออนไลน์ พร้อมกับป้ายกำกับความรู้สึก (บวก, กลางๆ, ลบ, คำถาม) รวมประมาณ 26,700 ข้อความ **เผยแพร่เป็นสมบัติสาธารณะ** ภายใต้สัญญาอนุญาต Creative Commons Zero v1.0 Universal
 
-Social media message with sentiment label (positive, neutral, negative, question). **Released to public domain.**
+Social media message with sentiment label (positive, neutral, negative, question). **Released to public domain** under Creative Commons Zero v1.0 Universal license.
 
 Last update: 2019-03-31
 
