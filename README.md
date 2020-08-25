@@ -2,9 +2,9 @@
 [![DOI](https://zenodo.org/badge/174823035.svg)](https://zenodo.org/badge/latestdoi/174823035)
 
 
-ข้อความภาษาไทยจากสื่อสังคมออนไลน์ พร้อมกับป้ายกำกับความรู้สึก (บวก, กลางๆ, ลบ, คำถาม) รวมประมาณ 26,700 ข้อความ **เผยแพร่เป็นสมบัติสาธารณะ** ภายใต้สัญญาอนุญาต Creative Commons Zero v1.0 Universal
+ข้อความภาษาไทยจากสื่อสังคมออนไลน์ พร้อมกับป้ายกำกับความรู้สึก (บวก, กลางๆ, ลบ, คำถาม) รวม 26,737 ข้อความ **เผยแพร่เป็นสมบัติสาธารณะ** ภายใต้สัญญาอนุญาต Creative Commons Zero v1.0 Universal
 
-Social media message with sentiment label (positive, neutral, negative, question). **Released to public domain** under Creative Commons Zero v1.0 Universal license.
+Social media messages in Thai language with sentiment label (positive, neutral, negative, question). **Released to public domain** under Creative Commons Zero v1.0 Universal license.
 
 Last update: 2019-03-31
 
@@ -15,7 +15,7 @@ For data exploration and classification examples, see [Thai Text Classification 
 
 ## Source
 
-- Size: ~26,700 messages
+- Size: 26,737 messages
 - Language: Central Thai
 - Style: Informal and conversational. With some news headlines and advertisement.
 - Time period: Around 2016 to early 2019. With small amount from other period.
@@ -37,11 +37,11 @@ For data exploration and classification examples, see [Thai Text Classification 
 
 - All files are UTF-8 encoded plaintext
 - One message per line. A newline character in the original message will be replaced with a space.
-- `q.txt` Questions (~500 messages)
-- `neg.txt` Message with negative sentiment (~6,800)
-- `neu.txt` Message with neutral sentiment (~14,500)
-- `pos.txt` Message with positive sentiment (~4,700)
-- Exact dataset are also provided in Kaggle competition format, inside `kaggle-competition/` directory:
+- `q.txt` Questions (575 messages)
+- `neg.txt` Message with negative sentiment (6,823)
+- `neu.txt` Message with neutral sentiment (14,561)
+- `pos.txt` Message with positive sentiment (4,778)
+- The legacy dataset in Kaggle competition format is also provided inside `kaggle-competition/` directory:
   - `train.txt` - Message for training (24,066 messages)
   - `train_label.txt` - Label for training. Each line is the label corresponding to the same line in `train.txt`
   - `test.txt` - Message for testing (2,674 messages)
@@ -53,7 +53,7 @@ For data exploration and classification examples, see [Thai Text Classification 
 
 ## Personal data
 
-- We trying to exclude personally identifiable information from this data set.
+- We trying to exclude any known personally identifiable information from this data set.
 - Usernames and non-public figure names are removed
 - Phone numbers are masked (e.g. 088-888-8888, 09-9999-9999, 0-2222-2222)
 - If you see any personal data still remain in the set, please tell us - so we can remove them.
@@ -76,10 +76,32 @@ For data exploration and classification examples, see [Thai Text Classification 
 ## Copyright and Disclaimer
 - If applicable, copyright of each message content belongs to the original poster.
 - **Annotation data (labels) are released to public domain.**
-- [Wisesight (Thailand) Co., Ltd.](https://github.com/thothmedia/) helps facilitate the annotation, but does not necessarily agree upon the labels made by the human annotators. This annotation is for research purpose and does not reflect the professional work that Wisesight has been done for its customers.
+- [Wisesight (Thailand) Co., Ltd.](https://github.com/wisesight/) helps facilitate the annotation, but does not necessarily agree upon the labels made by the human annotators. This annotation is for research purpose and does not reflect the professional work that Wisesight has been done for its customers.
 - The human annotator does not necessarily agree or disagree with the message. Likewise, the label he/she made to the message does not necessarily reflect his/her personal view towards the message.
 
 
+## Citation
+
+Please cite the following if you make use of the dataset:
+
+Arthit Suriyawongkul, Ekapol Chuangsuwanich, Pattarawat Chormai, and Charin Polpanumas. 2019. **PyThaiNLP/wisesight-sentiment: First release.** September.
+
+BibTeX:
+```
+@software{bact_2019_3457447,
+  author       = {Suriyawongkul, Arthit and
+                  Chuangsuwanich, Ekapol and
+                  Chormai, Pattarawat and
+                  Polpanumas, Charin},
+  title        = {PyThaiNLP/wisesight-sentiment: First release},
+  month        = sep,
+  year         = 2019,
+  publisher    = {Zenodo},
+  version      = {v1.0},
+  doi          = {10.5281/zenodo.3457447},
+  url          = {https://doi.org/10.5281/zenodo.3457447}
+}
+
 ## Acknowledgement
 
-Thanks [PyThaiNLP](https://github.com/PyThaiNLP/pythainlp) community, [Kitsuchart Pasupa](http://www.it.kmitl.ac.th/~kitsuchart/) (Faculty of Information Technology, King Mongkut's Institute of Technology Ladkrabang), and [Ekapol Chuangsuwanich](https://www.cp.eng.chula.ac.th/en/about/faculty/ekapolc/) (Faculty of Engineering, Chulalongkorn University) for advice. The original Kaggle competition, using the first version of this coprus, can be found at https://www.kaggle.com/c/wisesight-sentiment/ 
+Thanks [PyThaiNLP](https://github.com/PyThaiNLP/pythainlp) community, [Kitsuchart Pasupa](http://www.it.kmitl.ac.th/~kitsuchart/) (Faculty of Information Technology, King Mongkut's Institute of Technology Ladkrabang), and [Ekapol Chuangsuwanich](https://www.cp.eng.chula.ac.th/en/about/faculty/ekapolc/) (Faculty of Engineering, Chulalongkorn University) for advice. The original Kaggle competition, using the first version of this corpus, can be found at https://www.kaggle.com/c/wisesight-sentiment/ 
