@@ -13,6 +13,8 @@ see https://github.com/PyThaiNLP/wisesight-sentiment/tree/master/word-tokenizati
 
 For data exploration and classification examples, see [Thai Text Classification Benchmarks](https://github.com/PyThaiNLP/classification-benchmarks).
 
+Also available as Huggingface datasets: [wisesight_sentiment](https://huggingface.co/datasets/wisesight_sentiment) (use data from earlier version of Wisesight Sentiment Corpus) , [wisesight1000](https://huggingface.co/datasets/wisesight1000)
+
 ## Source
 
 - Size: 26,737 messages
