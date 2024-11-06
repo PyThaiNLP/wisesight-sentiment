@@ -10,13 +10,27 @@ authors:
 - family-names: "Chormai"
   given-names: "Pattarawat"
   orcid: "https://orcid.org/0000-0002-7582-4667"
+- family-names: "Chantarapratin"
+  given-names: "Nitchakarn"
+- family-names: "Prasertsom"
+  given-names: "Ponrawee"
+- family-names: "Sawatphol"
+  given-names: "Jitkapat"
+- family-names: "Yamada"
+  given-names: "Nozomi"
+- family-names: "Rutherford"
+  given-names: "Attapol"
+  orcid: "https://orcid.org/0000-0003-2270-6082"
 - family-names: "Polpanumas"
   given-names: "Charin"
   orcid: "https://orcid.org/0000-0001-7822-4600"
-title: "PyThaiNLP/wisesight-sentiment: First release"
-version: v1.0
+- family-names: "Udomcharoenchaikit"
+  given-names: "Can"
+  orcid: "https://orcid.org/0000-0002-7090-0536"
+title: "PyThaiNLP/wisesight-sentiment: First release (Version 1.0.1)"
+version: v1.0.1
 license: CC0-1.0
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.3457447
-date-released: 2019-09-22
+    value: 10.5281/zenodo.3457446
+date-released: 2024-11-06
