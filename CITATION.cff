@@ -1,0 +1,22 @@
+cff-version: "1.2.0"
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Suriyawongkul"
+  given-names: "Arthit"
+  orcid: "https://orcid.org/0000-0002-9698-1899"
+- family-names: "Chuangsuwanich"
+  given-names: "Ekapol"
+  orcid: "https://orcid.org/0000-0001-6104-4857"
+- family-names: "Chormai"
+  given-names: "Pattarawat"
+  orcid: "https://orcid.org/0000-0002-7582-4667"
+- family-names: "Polpanumas"
+  given-names: "Charin"
+  orcid: "https://orcid.org/0000-0001-7822-4600"
+title: "PyThaiNLP/wisesight-sentiment: First release"
+version: v1.0
+license: CC0-1.0
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.3457447
+date-released: 2019-09-22
