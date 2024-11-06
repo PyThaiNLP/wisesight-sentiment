@@ -1,6 +1,8 @@
-***NOTES: The most recent tutorial is being updated at https://github.com/PyThaiNLP/tutorials***
+---
+SPDX-License-Identifier: CC0-1.0
+---
 
-----
+***NOTES: The most recent tutorial is being updated at https://github.com/PyThaiNLP/tutorials***
 
 This directory contains data files in Kaggle competition format and Jupyter notebook (Python) for training, prediction, and evaluation.
 
