@@ -99,7 +99,7 @@ Last update: 2019-03-31
 
 Please cite the following if you make use of the dataset:
 
-Arthit Suriyawongkul, Ekapol Chuangsuwanich, Pattarawat Chormai, and Charin Polpanumas. 2019. **PyThaiNLP/wisesight-sentiment: First release.** September.
+> Arthit Suriyawongkul, Ekapol Chuangsuwanich, Pattarawat Chormai, and Charin Polpanumas. 2019. **PyThaiNLP/wisesight-sentiment: First release.** September.
 
 BibTeX:
 ```
