@@ -10,8 +10,16 @@ Social media messages in Thai language with sentiment label (positive, neutral, 
 
 [cc]: https://creativecommons.org/publicdomain/zero/1.0/
 
-Last data update: 2019-03-31
-Last update: 2024-11-06
+## Updates
+
+- 2024-11-06 - Release v1.0.1 with updated contributors
+- 2020-12-01 - Add Hugging Face format - [PR #7](https://github.com/PyThaiNLP/wisesight-sentiment/pull/7)
+- 2019-10-01 - Fix path in data preparation notebook - [PR #6](https://github.com/PyThaiNLP/wisesight-sentiment/pull/6)
+- 2019-08-22 - Add tokenization annotation for ~1,000 samples - [PR #4](https://github.com/PyThaiNLP/wisesight-sentiment/pull/4)
+- 2019-07-03 - Add tokenization annotation for 160 samples - [PR #2](https://github.com/PyThaiNLP/wisesight-sentiment/pull/2)
+- 2019-03-31 - Update data
+
+## Related corpus
 
 - For `wisesight-160` and `wisesight-1000`, which are samples from this corpus in a tokenized form,
   see <https://github.com/PyThaiNLP/wisesight-sentiment/tree/master/word-tokenization>
@@ -100,7 +108,7 @@ Last update: 2024-11-06
 
 Please cite the following if you make use of the dataset:
 
-> Arthit Suriyawongkul, Ekapol Chuangsuwanich, Pattarawat Chormai, Charin Polpanumas, and Can Udomcharoenchaikit. 2024. **PyThaiNLP/wisesight-sentiment: First release (Version 1.0.1)**
+> Arthit Suriyawongkul, Ekapol Chuangsuwanich, Pattarawat Chormai, Nitchakarn Chantarapratin, Charin Polpanumas, and Can Udomcharoenchaikit. 2024. **PyThaiNLP/wisesight-sentiment: First release (Version 1.0.1)** November.
 
 BibTeX:
 ```
@@ -108,6 +116,11 @@ BibTeX:
   author       = {Suriyawongkul, Arthit and
                   Chuangsuwanich, Ekapol and
                   Chormai, Pattarawat and
+                  Chantarapratin, Nitchakarn and
+                  Prasertsom, Ponrawee and
+                  Sawatphol, Jitkapat and
+                  Yamada, Nozomi and
+                  Rutherford, Attapol and
                   Polpanumas, Charin and
                   Udomcharoenchaikit, Can},
   title        = {PyThaiNLP/wisesight-sentiment: First release},
