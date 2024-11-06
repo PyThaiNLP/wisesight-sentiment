@@ -53,7 +53,7 @@ Social media messages in Thai language with sentiment label (positive, neutral, 
   - (Mis)spellings are kept intact.
   - Messages longer than 2,000 characters are removed.
   - Long non-Thai messages are removed. Duplicated message (exact match) are removed.
-- More characteristics of the data can be explore by this
+- More characteristics of the data can be explored by this
   [notebook](https://github.com/PyThaiNLP/wisesight-sentiment/blob/master/exploration.ipynb).
 
 ## Corpus file structure
@@ -86,11 +86,11 @@ Social media messages in Thai language with sentiment label (positive, neutral, 
 - A human annotator put his/her best effort to assign just one label, out of three, to a message.
 - A message can be ambiguous. When possible, the judgement will be based solely on the text itself.
   - In some situation, like when the context is missing, the annotator may have to rely on his/her own world knowledge and just guess.
-  - In some cases, the human annotator may have an access to the message's context, like an image.
+  - In some cases, the human annotator may have access to the message's context, like an image.
     These additional information are not included as part of this corpus.
 - Agreement, enjoyment, and satisfaction are positive. Disagreement, sadness, and disappointment are negative.
 - Showing interest in a topic or in a product is counted as positive.
-  - In this sense, a question about a particular product could has a positive sentiment value, if it shows the interest in the product.
+  - In this sense, a question about a particular product could have a positive sentiment value, if it shows the interest in the product.
 - Saying that other product or service is better is counted as negative.
 - General information or news title tend to be counted as neutral.
 
@@ -108,11 +108,12 @@ Social media messages in Thai language with sentiment label (positive, neutral, 
 
 Please cite the following if you make use of the dataset:
 
-> Arthit Suriyawongkul, Ekapol Chuangsuwanich, Pattarawat Chormai, Nitchakarn Chantarapratin, Charin Polpanumas, and Can Udomcharoenchaikit. 2024. **PyThaiNLP/wisesight-sentiment: First release (Version 1.0.1)** November.
+> Arthit Suriyawongkul, Ekapol Chuangsuwanich, Pattarawat Chormai, Nitchakarn Chantarapratin, Ponrawee Prasertsom, Jitkapat Sawatphol, Nozomi Yamada, Attapol Rutherford, Charin Polpanumas, and Can Udomcharoenchaikit. 2020. **PyThaiNLP/Wisesight Sentiment Corpus with Word Tokenization Label (Version 1.0.1)** November.
 
 BibTeX:
+
 ```
-@software{Suriyawongkul_PyThaiNLP_wisesight-sentiment_First_release_2024,
+@software{Suriyawongkul_PyThaiNLP_Wisesight_Sentiment_Corpus_2020,
   author       = {Suriyawongkul, Arthit and
                   Chuangsuwanich, Ekapol and
                   Chormai, Pattarawat and
@@ -123,24 +124,26 @@ BibTeX:
                   Rutherford, Attapol and
                   Polpanumas, Charin and
                   Udomcharoenchaikit, Can},
-  title        = {PyThaiNLP/wisesight-sentiment: First release},
-  month        = nov,
-  year         = 2024,
-  publisher    = {Zenodo},
-  version      = {v1.0.1},
   doi          = {10.5281/zenodo.3457446},
-  url          = {https://doi.org/10.5281/zenodo.3457446},
   license      = {CC0-1.0},
+  month        = dec,
+  publisher    = {Zenodo},
+  title        = {{PyThaiNLP/Wisesight Sentiment Corpus with Word Tokenization Label}},
+  url          = {https://doi.org/10.5281/zenodo.3457446},
+  version      = {v1.0.1},
+  year         = 2020
 }
 ```
 
 ## Acknowledgement
 
-Thanks [PyThaiNLP](https://github.com/PyThaiNLP/pythainlp) community,
-[Kitsuchart Pasupa](http://www.it.kmitl.ac.th/~kitsuchart/)
-(Faculty of Information Technology, King Mongkut's Institute of Technology Ladkrabang),
-and [Ekapol Chuangsuwanich](https://www.cp.eng.chula.ac.th/en/about/faculty/ekapolc/)
-(Faculty of Engineering, Chulalongkorn University) for advice.
-
-The original Kaggle competition, using the earlier version of this corpus,
-can be found at <https://www.kaggle.com/c/wisesight-sentiment/>.
+- Thanks [PyThaiNLP](https://github.com/PyThaiNLP/pythainlp) community and
+  [Kitsuchart Pasupa](https://www.it.kmitl.ac.th/~kitsuchart/)
+  (Faculty of Information Technology, King Mongkut's Institute of Technology
+  Ladkrabang) for advice.
+- The tokenization annotation was done by the support of
+  the [Natural Language Processing Lab](https://attapol.github.io/lab.html)
+  at Department of Linguistics, Faculty of Arts, Chulalongkorn University.
+- The original Kaggle competition, by Ekapol Chuangsuwanich,
+  using the earlier version of this corpus,
+  can be found at <https://www.kaggle.com/c/wisesight-sentiment/>.
