@@ -3,7 +3,7 @@
     "@graph": [
         {
             "@id": "_:creationinfo",
-            "created": "2024-11-06T18:00:00Z",
+            "created": "2024-11-06T19:30:00Z",
             "createdBy": [
                 "https://orcid.org/0000-0002-9698-1899"
             ],
@@ -115,7 +115,7 @@
             "originatedBy": [
                 "https://pythainlp.org/"
             ],
-            "releaseTime": "2024-11-06T19:00:00Z",
+            "releaseTime": "2024-11-06T19:30:00Z",
             "software_downloadLocation": "https://github.com/PyThaiNLP/wisesight-sentiment/releases",
             "software_homePage": "https://github.com/PyThaiNLP/wisesight-sentiment/",
             "software_packageVersion": "1.0.1",
@@ -131,7 +131,7 @@
             "originatedBy": [
                 "https://pythainlp.org/"
             ],
-            "releaseTime": "2024-11-06T20:00:00Z",
+            "releaseTime": "2020-05-20T20:00:00Z",
             "software_primaryPurpose": "documentation",
             "spdxId": "https://spdx.org/spdxdocs/File/01-0710b717-a9c1-41de-af42-f41827c30ccc",
             "type": "software_File"
@@ -196,7 +196,7 @@
             "originatedBy": [
                 "https://pythainlp.org/"
             ],
-            "releaseTime": "2024-11-06T20:00:00Z",
+            "releaseTime": "2024-11-06T19:30:00Z",
             "software_primaryPurpose": "documentation",
             "spdxId": "https://spdx.org/spdxdocs/File/06-c79a169b-df75-4a01-aa8b-713a5dc86441",
             "type": "software_File"
