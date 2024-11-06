@@ -5,7 +5,7 @@
             "@id": "_:creationinfo",
             "created": "2024-11-06T18:00:00Z",
             "createdBy": [
-                "https://github.com/bact/"
+                "https://orcid.org/0000-0002-9698-1899"
             ],
             "specVersion": "3.0.1",
             "type": "CreationInfo"
@@ -24,7 +24,7 @@
                 }
             ],
             "name": "Arthit Suriyawongkul",
-            "spdxId": "https://github.com/bact/",
+            "spdxId": "https://orcid.org/0000-0002-9698-1899",
             "type": "Person"
         },
         {
@@ -41,7 +41,7 @@
                 }
             ],
             "name": "PyThaiNLP",
-            "spdxId": "https://github.com/PyThaiNLP/",
+            "spdxId": "https://pythainlp.org/",
             "type": "Organization"
         },
         {
@@ -110,9 +110,10 @@
                 "However, it also contains some more formal language from news headlines and advertisements.",
                 "The domains are mixed, with the majority being consumer products and services (restaurants, cosmetics, drinks, cars, hotels), and a smaller portion consisting of current affairs."
             ],
+            "description": "Social media messages in Thai language with sentiment label (positive, neutral, negative, question). Contains 26,737 messages. Released to public domain under Creative Commons Zero v1.0 Universal license.",
             "name": "PyThaiNLP/Wisesight Sentiment Corpus with Word Tokenization Label",
             "originatedBy": [
-                "https://github.com/PyThaiNLP/"
+                "https://pythainlp.org/"
             ],
             "releaseTime": "2024-11-06T19:00:00Z",
             "software_downloadLocation": "https://github.com/PyThaiNLP/wisesight-sentiment/releases",
@@ -128,7 +129,7 @@
             "description": "License file for the dataset, which is CC0 1.0 Universal.",
             "name": "LICENSE",
             "originatedBy": [
-                "https://github.com/PyThaiNLP/"
+                "https://pythainlp.org/"
             ],
             "releaseTime": "2024-11-06T20:00:00Z",
             "software_primaryPurpose": "documentation",
@@ -141,7 +142,7 @@
             "description": "Negative sentiment messages.",
             "name": "neg.txt",
             "originatedBy": [
-                "https://github.com/PyThaiNLP/"
+                "https://pythainlp.org/"
             ],
             "releaseTime": "2019-03-31T20:00:00Z",
             "software_primaryPurpose": "data",
@@ -154,7 +155,7 @@
             "description": "Neutral sentiment messages.",
             "name": "neu.txt",
             "originatedBy": [
-                "https://github.com/PyThaiNLP/"
+                "https://pythainlp.org/"
             ],
             "releaseTime": "2019-03-31T20:00:00Z",
             "software_primaryPurpose": "data",
@@ -167,7 +168,7 @@
             "description": "Positive sentiment messages.",
             "name": "pos.txt",
             "originatedBy": [
-                "https://github.com/PyThaiNLP/"
+                "https://pythainlp.org/"
             ],
             "releaseTime": "2019-03-31T20:00:00Z",
             "software_primaryPurpose": "data",
@@ -180,7 +181,7 @@
             "description": "Question messages.",
             "name": "q.txt",
             "originatedBy": [
-                "https://github.com/PyThaiNLP/"
+                "https://pythainlp.org/"
             ],
             "releaseTime": "2019-03-31T20:00:00Z",
             "software_primaryPurpose": "data",
@@ -193,7 +194,7 @@
             "description": "README file for the dataset. Contains information about the dataset, its collection process, and its annotation methodology.",
             "name": "README.md",
             "originatedBy": [
-                "https://github.com/PyThaiNLP/"
+                "https://pythainlp.org/"
             ],
             "releaseTime": "2024-11-06T20:00:00Z",
             "software_primaryPurpose": "documentation",
