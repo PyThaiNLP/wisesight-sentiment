@@ -108,7 +108,7 @@ Social media messages in Thai language with sentiment label (positive, neutral, 
 
 Please cite the following if you make use of the dataset:
 
-> Arthit Suriyawongkul, Ekapol Chuangsuwanich, Pattarawat Chormai, Nitchakarn Chantarapratin, Ponrawee Prasertsom, Jitkapat Sawatphol, Nozomi Yamada, Attapol Rutherford, Charin Polpanumas, and Can Udomcharoenchaikit. 2020. **PyThaiNLP/Wisesight Sentiment Corpus with Word Tokenization Label (Version 1.0.1)** November.
+> Arthit Suriyawongkul, Ekapol Chuangsuwanich, Pattarawat Chormai, Nitchakarn Chantarapratin, Ponrawee Prasertsom, Jitkapat Sawatphol, Nozomi Yamada, Attapol Rutherford, Charin Polpanumas, and Can Udomcharoenchaikit. 2024. **PyThaiNLP/Wisesight Sentiment Corpus with Word Tokenization Label (Version 1.0.1)** November.
 
 BibTeX:
 
@@ -126,12 +126,12 @@ BibTeX:
                   Udomcharoenchaikit, Can},
   doi          = {10.5281/zenodo.3457446},
   license      = {CC0-1.0},
-  month        = dec,
+  month        = nov,
   publisher    = {Zenodo},
   title        = {{PyThaiNLP/Wisesight Sentiment Corpus with Word Tokenization Label}},
   url          = {https://doi.org/10.5281/zenodo.3457446},
   version      = {v1.0.1},
-  year         = 2020
+  year         = 2024
 }
 ```
 
