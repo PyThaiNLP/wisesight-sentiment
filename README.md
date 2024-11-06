@@ -16,7 +16,7 @@ Social media messages in Thai language with sentiment label (positive, neutral, 
 
 ## Changelog
 
-- 2024-11-06 - Release v1.0.1 with updated contributors
+- 2024-11-06 - Release v1.0.1 with updated contributors and software bill of materials (SBOM)
 - 2020-12-01 - Add Hugging Face format - [PR #7](https://github.com/PyThaiNLP/wisesight-sentiment/pull/7)
 - 2019-10-01 - Fix path in data preparation notebook - [PR #6](https://github.com/PyThaiNLP/wisesight-sentiment/pull/6)
 - 2019-08-22 - Add tokenization annotation for ~1,000 samples - [PR #4](https://github.com/PyThaiNLP/wisesight-sentiment/pull/4)
@@ -59,6 +59,7 @@ Social media messages in Thai language with sentiment label (positive, neutral, 
   - Long non-Thai messages are removed. Duplicated message (exact match) are removed.
 - More characteristics of the data can be explored by this
   [notebook](https://github.com/PyThaiNLP/wisesight-sentiment/blob/master/exploration.ipynb).
+- See [sbom.spdx3.json](./sbom.spdx3.json) for a machine-readable data bill of materials (BOM) in [SPDX 3.0](https://spdx.dev/use/specifications/) format.
 
 ## Corpus file structure
 

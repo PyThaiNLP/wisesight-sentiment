@@ -72,6 +72,10 @@
             "builtTime": "2024-11-06T17:30:00Z",
             "comment": "See more at: https://github.com/PyThaiNLP/wisesight-sentiment/blob/master/README.md",
             "creationInfo": "_:creationinfo",
+            "dataset_anonymizationMethodUsed": [
+                "masking",
+                "removal"
+            ],
             "dataset_confidentialityLevel": "clear",
             "dataset_dataCollectionProcess": "Data was collected from approximately 2016 to early 2019, with a small amount from other periods. Collection was made only from messages that made available to the public on the internet (websites, blogs, social network sites). For Facebook, this means the public comments (everyone can see) that made on a public page. Private/protected messages and messages in groups, chat, and inbox are not included.",
             "dataset_dataPreprocessing": [
@@ -110,7 +114,7 @@
                 "However, it also contains some more formal language from news headlines and advertisements.",
                 "The domains are mixed, with the majority being consumer products and services (restaurants, cosmetics, drinks, cars, hotels), and a smaller portion consisting of current affairs."
             ],
-            "description": "Social media messages in Thai language with sentiment label (positive, neutral, negative, question). Contains 26,737 messages. Released to public domain under Creative Commons Zero v1.0 Universal license.",
+            "description": "Social media messages in Thai language with sentiment label (positive, neutral, negative, question). Contains 26,737 messages. Released to public domain under Creative Commons Zero v1.0 Universal license. More characteristics of the data can be explored by this notebook: https://github.com/PyThaiNLP/wisesight-sentiment/blob/master/exploration.ipynb.",
             "name": "PyThaiNLP/Wisesight Sentiment Corpus with Word Tokenization Label",
             "originatedBy": [
                 "https://pythainlp.org/"
