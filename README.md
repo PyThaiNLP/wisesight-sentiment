@@ -10,7 +10,7 @@ Social media messages in Thai language with sentiment label (positive, neutral, 
 
 [cc]: https://creativecommons.org/publicdomain/zero/1.0/
 
-## Updates
+## Changelog
 
 - 2024-11-06 - Release v1.0.1 with updated contributors
 - 2020-12-01 - Add Hugging Face format - [PR #7](https://github.com/PyThaiNLP/wisesight-sentiment/pull/7)
