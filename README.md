@@ -1,6 +1,6 @@
 # Wisesight Sentiment Corpus
 
-[![DOI](https://zenodo.org/badge/174823035.svg)](https://zenodo.org/badge/latestdoi/174823035)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3457446.svg)](https://doi.org/10.5281/zenodo.3457446)
 
 ข้อความภาษาไทยจากสื่อสังคมออนไลน์ พร้อมกับป้ายกำกับความรู้สึก (บวก, กลางๆ, ลบ, คำถาม) รวม 26,737 ข้อความ
 **เผยแพร่เป็นสมบัติสาธารณะ** ภายใต้[สัญญาอนุญาต Creative Commons Zero v1.0 Universal][cc]
