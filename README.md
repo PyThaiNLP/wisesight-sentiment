@@ -10,7 +10,8 @@ Social media messages in Thai language with sentiment label (positive, neutral, 
 
 [cc]: https://creativecommons.org/publicdomain/zero/1.0/
 
-Last update: 2019-03-31
+Last data update: 2019-03-31
+Last update: 2024-11-06
 
 - For `wisesight-160` and `wisesight-1000`, which are samples from this corpus in a tokenized form,
   see <https://github.com/PyThaiNLP/wisesight-sentiment/tree/master/word-tokenization>
@@ -99,7 +100,7 @@ Last update: 2019-03-31
 
 Please cite the following if you make use of the dataset:
 
-> Arthit Suriyawongkul, Ekapol Chuangsuwanich, Pattarawat Chormai, Charin Polpanumas, and Can Udomcharoenchaikit. 2024. **PyThaiNLP/wisesight-sentiment: First release** September.
+> Arthit Suriyawongkul, Ekapol Chuangsuwanich, Pattarawat Chormai, Charin Polpanumas, and Can Udomcharoenchaikit. 2024. **PyThaiNLP/wisesight-sentiment: First release (Version 1.0.1)**
 
 BibTeX:
 ```
