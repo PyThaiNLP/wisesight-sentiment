@@ -1,3 +1,7 @@
+---
+SPDX-License-Identifier: CC0-1.0
+---
+
 # Wisesight Sentiment Corpus
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3457446.svg)](https://doi.org/10.5281/zenodo.3457446)
