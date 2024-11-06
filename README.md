@@ -41,7 +41,7 @@ Social media messages in Thai language with sentiment label (positive, neutral, 
 - Size: 26,737 messages
 - Language: Central Thai
 - Style: Informal and conversational. With some news headlines and advertisement.
-- Time period: Around 2016 to early 2019. With small amount from other period.
+- Time period: Approximately 2016 to early 2019, with a small amount from other periods.
 - Domains: Mixed. Majority are consumer products and services
   (restaurants, cosmetics, drinks, car, hotels), with some current affairs.
 - Privacy:
@@ -79,10 +79,10 @@ Social media messages in Thai language with sentiment label (positive, neutral, 
 
 ## Personal data
 
-- We trying to exclude any known personally identifiable information from this data set.
-- Usernames and non-public figure names are removed
-- Phone numbers are masked (e.g. 088-888-8888, 09-9999-9999, 0-2222-2222)
-- If you see any personal data still remain in the set, please tell us - so we can remove them.
+- We are trying to exclude any known personally identifiable information from this dataset.
+- Usernames and non-public figure names are removed.
+- Phone numbers are masked (e.g., 088-888-8888, 09-9999-9999, 0-2222-2222).
+- If you see any personal data still remaining in the set, please let us know, so we can remove it.
 
 ## Sentiment value annotation methodology
 

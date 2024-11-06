@@ -1,0 +1,256 @@
+{
+    "@context": "https://spdx.org/rdf/3.0.1/spdx-context.jsonld",
+    "@graph": [
+        {
+            "@id": "_:creationinfo",
+            "created": "2024-11-06T18:00:00Z",
+            "createdBy": [
+                "https://github.com/bact/"
+            ],
+            "specVersion": "3.0.1",
+            "type": "CreationInfo"
+        },
+        {
+            "creationInfo": "_:creationinfo",
+            "externalIdentifier": [
+                {
+                    "externalIdentifierType": "other",
+                    "identifier": "bact",
+                    "identifierLocator": [
+                        "https://github.com/bact/"
+                    ],
+                    "issuingAuthority": "GitHub",
+                    "type": "ExternalIdentifier"
+                }
+            ],
+            "name": "Arthit Suriyawongkul",
+            "spdxId": "https://github.com/bact/",
+            "type": "Person"
+        },
+        {
+            "creationInfo": "_:creationinfo",
+            "externalIdentifier": [
+                {
+                    "externalIdentifierType": "other",
+                    "identifier": "PyThaiNLP",
+                    "identifierLocator": [
+                        "https://github.com/PyThaiNLP/"
+                    ],
+                    "issuingAuthority": "GitHub",
+                    "type": "ExternalIdentifier"
+                }
+            ],
+            "name": "PyThaiNLP",
+            "spdxId": "https://github.com/PyThaiNLP/",
+            "type": "Organization"
+        },
+        {
+            "creationInfo": "_:creationinfo",
+            "profileConformance": [
+                "core",
+                "dataset"
+            ],
+            "rootElement": [
+                "https://spdx.org/spdxdocs/Bom/01-5b1aeec4-be22-44dc-ae37-4594e38e5119"
+            ],
+            "spdxId": "https://spdx.org/spdxdocs/SpdxDocument/01-969f4a32-c67c-4824-8afa-d9ac8e634b75",
+            "type": "SpdxDocument"
+        },
+        {
+            "creationInfo": "_:creationinfo",
+            "profileConformance": [
+                "core",
+                "dataset"
+            ],
+            "rootElement": [
+                "https://spdx.org/spdxdocs/DatasetPackage/01-c69d31e2-43cd-4918-ab26-71f198a85cd1"
+            ],
+            "spdxId": "https://spdx.org/spdxdocs/Bom/01-5b1aeec4-be22-44dc-ae37-4594e38e5119",
+            "type": "Bom"
+        },
+        {
+            "builtTime": "2024-11-06T17:30:00Z",
+            "comment": "See more at: https://github.com/PyThaiNLP/wisesight-sentiment/blob/master/README.md",
+            "creationInfo": "_:creationinfo",
+            "dataset_confidentialityLevel": "clear",
+            "dataset_dataCollectionProcess": "Data was collected from approximately 2016 to early 2019, with a small amount from other periods. Collection was made only from messages that made available to the public on the internet (websites, blogs, social network sites). For Facebook, this means the public comments (everyone can see) that made on a public page. Private/protected messages and messages in groups, chat, and inbox are not included.",
+            "dataset_dataPreprocessing": [
+                "Large amount of messages are not in their original form. Personal data are removed or masked.",
+                "Usernames and non-public figure names are removed.",
+                "Phone numbers are masked (e.g., 088-888-8888, 09-9999-9999, 0-2222-2222).",
+                "Duplicated, leading, and trailing whitespaces are removed. Other punctuations, symbols, and emojis are kept intact.",
+                "(Mis)spellings are kept intact.",
+                "Messages longer than 2,000 characters are removed.",
+                "Long non-Thai messages are removed. Duplicated message (exact match) are removed.",
+                "Sentiment value annotation is added, using the following methodology.",
+                "Sentiment values are assigned by human annotators.",
+                "A human annotator put his/her best effort to assign just one label, out of three, to a message.",
+                "A message can be ambiguous. When possible, the judgement will be based solely on the text itself.",
+                "In some situation, like when the context is missing, the annotator may have to rely on his/her own world knowledge and just guess.",
+                "In some cases, the human annotator may have access to the message's context, like an image. These additional information are not included as part of this corpus.",
+                "Agreement, enjoyment, and satisfaction are positive. Disagreement, sadness, and disappointment are negative.",
+                "Showing interest in a topic or in a product is counted as positive.",
+                "In this sense, a question about a particular product could have a positive sentiment value, if it shows the interest in the product.",
+                "Saying that other product or service is better is counted as negative.",
+                "General information or news title tend to be counted as neutral."
+            ],
+            "dataset_datasetAvailability": "directDownload",
+            "dataset_datasetSize": 6325249,
+            "dataset_datasetType": [
+                "categorical",
+                "text"
+            ],
+            "dataset_datasetUpdateMechanism": "manual",
+            "dataset_hasSensitivePersonalInformation": "no",
+            "dataset_intendedUse": "For training and evaluation of sentiment analysis models.",
+            "dataset_knownBias": [
+                "The corpus does not statistically represent the language register or the proportion of diverse Thai dialects.",
+                "The primary language of this corpus is Central Thai.",
+                "Due to the nature of social media, the language style tends to be informal and conversational.",
+                "However, it also contains some more formal language from news headlines and advertisements.",
+                "The domains are mixed, with the majority being consumer products and services (restaurants, cosmetics, drinks, cars, hotels), and a smaller portion consisting of current affairs."
+            ],
+            "name": "PyThaiNLP/Wisesight Sentiment Corpus with Word Tokenization Label",
+            "originatedBy": [
+                "https://github.com/PyThaiNLP/"
+            ],
+            "releaseTime": "2024-11-06T19:00:00Z",
+            "software_downloadLocation": "https://github.com/PyThaiNLP/wisesight-sentiment/releases",
+            "software_homePage": "https://github.com/PyThaiNLP/wisesight-sentiment/",
+            "software_packageVersion": "1.0.1",
+            "software_primaryPurpose": "data",
+            "spdxId": "https://spdx.org/spdxdocs/DatasetPackage/01-c69d31e2-43cd-4918-ab26-71f198a85cd1",
+            "type": "dataset_DatasetPackage"
+        },
+        {
+            "contentType": "text/plain;charset=UTF-8",
+            "creationInfo": "_:creationinfo",
+            "description": "License file for the dataset, which is CC0 1.0 Universal.",
+            "name": "LICENSE",
+            "originatedBy": [
+                "https://github.com/PyThaiNLP/"
+            ],
+            "releaseTime": "2024-11-06T20:00:00Z",
+            "software_primaryPurpose": "documentation",
+            "spdxId": "https://spdx.org/spdxdocs/File/01-0710b717-a9c1-41de-af42-f41827c30ccc",
+            "type": "software_File"
+        },
+        {
+            "contentType": "text/plain;charset=UTF-8",
+            "creationInfo": "_:creationinfo",
+            "description": "Negative sentiment messages.",
+            "name": "neg.txt",
+            "originatedBy": [
+                "https://github.com/PyThaiNLP/"
+            ],
+            "releaseTime": "2019-03-31T20:00:00Z",
+            "software_primaryPurpose": "data",
+            "spdxId": "https://spdx.org/spdxdocs/File/02-32d6319e-e619-42f8-8834-15792c780e7c",
+            "type": "software_File"
+        },
+        {
+            "contentType": "text/plain;charset=UTF-8",
+            "creationInfo": "_:creationinfo",
+            "description": "Neutral sentiment messages.",
+            "name": "neu.txt",
+            "originatedBy": [
+                "https://github.com/PyThaiNLP/"
+            ],
+            "releaseTime": "2019-03-31T20:00:00Z",
+            "software_primaryPurpose": "data",
+            "spdxId": "https://spdx.org/spdxdocs/File/03-c2ba0c57-d1fd-4fad-8daa-227f86e62d70",
+            "type": "software_File"
+        },
+        {
+            "contentType": "text/plain;charset=UTF-8",
+            "creationInfo": "_:creationinfo",
+            "description": "Positive sentiment messages.",
+            "name": "pos.txt",
+            "originatedBy": [
+                "https://github.com/PyThaiNLP/"
+            ],
+            "releaseTime": "2019-03-31T20:00:00Z",
+            "software_primaryPurpose": "data",
+            "spdxId": "https://spdx.org/spdxdocs/File/04-743ce7f8-b4a6-476f-bf3a-eb10bea3d3b2",
+            "type": "software_File"
+        },
+        {
+            "contentType": "text/plain;charset=UTF-8",
+            "creationInfo": "_:creationinfo",
+            "description": "Question messages.",
+            "name": "q.txt",
+            "originatedBy": [
+                "https://github.com/PyThaiNLP/"
+            ],
+            "releaseTime": "2019-03-31T20:00:00Z",
+            "software_primaryPurpose": "data",
+            "spdxId": "https://spdx.org/spdxdocs/File/05-c9bfbf0d-8993-4a5c-ab98-22bd2e1044b6",
+            "type": "software_File"
+        },
+        {
+            "contentType": "text/plain;charset=UTF-8",
+            "creationInfo": "_:creationinfo",
+            "description": "README file for the dataset. Contains information about the dataset, its collection process, and its annotation methodology.",
+            "name": "README.md",
+            "originatedBy": [
+                "https://github.com/PyThaiNLP/"
+            ],
+            "releaseTime": "2024-11-06T20:00:00Z",
+            "software_primaryPurpose": "documentation",
+            "spdxId": "https://spdx.org/spdxdocs/File/06-c79a169b-df75-4a01-aa8b-713a5dc86441",
+            "type": "software_File"
+        },
+        {
+            "creationInfo": "_:creationinfo",
+            "description": "DatasetPackage/01 contains LICENSE, neg.txt, neu.txt, pos.txt, q.txt, and README.md.",
+            "from": "https://spdx.org/spdxdocs/DatasetPackage/01-c69d31e2-43cd-4918-ab26-71f198a85cd1",
+            "relationshipType": "contains",
+            "spdxId": "https://spdx.org/spdxdocs/Relationship/contains-01-805ea98f-16a4-4b37-b706-387403d39d2d",
+            "to": [
+                "https://spdx.org/spdxdocs/File/01-0710b717-a9c1-41de-af42-f41827c30ccc",
+                "https://spdx.org/spdxdocs/File/02-32d6319e-e619-42f8-8834-15792c780e7c",
+                "https://spdx.org/spdxdocs/File/03-c2ba0c57-d1fd-4fad-8daa-227f86e62d70",
+                "https://spdx.org/spdxdocs/File/04-743ce7f8-b4a6-476f-bf3a-eb10bea3d3b2",
+                "https://spdx.org/spdxdocs/File/05-c9bfbf0d-8993-4a5c-ab98-22bd2e1044b6",
+                "https://spdx.org/spdxdocs/File/06-c79a169b-df75-4a01-aa8b-713a5dc86441"
+            ],
+            "type": "Relationship"
+        },
+        {
+            "creationInfo": "_:creationinfo",
+            "description": "README.md describes neg.txt, neu.txt, pos.txt, and q.txt.",
+            "from": "https://spdx.org/spdxdocs/File/06-c79a169b-df75-4a01-aa8b-713a5dc86441",
+            "relationshipType": "describes",
+            "spdxId": "https://spdx.org/spdxdocs/Relationship/describes-01-d8785f35-497b-4e0a-8fac-d4eede982e4e",
+            "to": [
+                "https://spdx.org/spdxdocs/File/02-32d6319e-e619-42f8-8834-15792c780e7c",
+                "https://spdx.org/spdxdocs/File/03-c2ba0c57-d1fd-4fad-8daa-227f86e62d70",
+                "https://spdx.org/spdxdocs/File/04-743ce7f8-b4a6-476f-bf3a-eb10bea3d3b2",
+                "https://spdx.org/spdxdocs/File/05-c9bfbf0d-8993-4a5c-ab98-22bd2e1044b6"
+            ],
+            "type": "Relationship"
+        },
+        {
+            "creationInfo": "_:creationinfo",
+            "description": "DatasetPackage/01 has a concluded license as CC0-1.0.",
+            "from": "https://spdx.org/spdxdocs/DatasetPackage/01-c69d31e2-43cd-4918-ab26-71f198a85cd1",
+            "relationshipType": "hasConcludedLicense",
+            "spdxId": "https://spdx.org/spdxdocs/Relationship/concludedLicense-01-3cfe0c7d-1a2d-4609-b468-0b2c2ed50501",
+            "to": [
+                "https://spdx.org/licenses/CC0-1.0"
+            ],
+            "type": "Relationship"
+        },
+        {
+            "creationInfo": "_:creationinfo",
+            "description": "DatasetPackage/01 has a declared license as CC0-1.0.",
+            "from": "https://spdx.org/spdxdocs/DatasetPackage/01-c69d31e2-43cd-4918-ab26-71f198a85cd1",
+            "relationshipType": "hasDeclaredLicense",
+            "spdxId": "https://spdx.org/spdxdocs/Relationship/declaredLicense-01-fbc5f8d0-e7ab-45a2-b5b5-1cabe6e697ac",
+            "to": [
+                "https://spdx.org/licenses/CC0-1.0"
+            ],
+            "type": "Relationship"
+        }
+    ]
+}
