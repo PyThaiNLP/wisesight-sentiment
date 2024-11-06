@@ -99,22 +99,23 @@ Last update: 2019-03-31
 
 Please cite the following if you make use of the dataset:
 
-> Arthit Suriyawongkul, Ekapol Chuangsuwanich, Pattarawat Chormai, and Charin Polpanumas. 2019. **PyThaiNLP/wisesight-sentiment: First release.** September.
+> Arthit Suriyawongkul, Ekapol Chuangsuwanich, Pattarawat Chormai, Charin Polpanumas, and Can Udomcharoenchaikit. 2024. **PyThaiNLP/wisesight-sentiment: First release** September.
 
 BibTeX:
 ```
-@software{Suriyawongkul_PyThaiNLP_wisesight-sentiment_First_release_2019,
+@software{Suriyawongkul_PyThaiNLP_wisesight-sentiment_First_release_2024,
   author       = {Suriyawongkul, Arthit and
                   Chuangsuwanich, Ekapol and
                   Chormai, Pattarawat and
-                  Polpanumas, Charin},
+                  Polpanumas, Charin and
+                  Udomcharoenchaikit, Can},
   title        = {PyThaiNLP/wisesight-sentiment: First release},
-  month        = sep,
-  year         = 2019,
+  month        = nov,
+  year         = 2024,
   publisher    = {Zenodo},
-  version      = {v1.0},
-  doi          = {10.5281/zenodo.3457447},
-  url          = {https://doi.org/10.5281/zenodo.3457447},
+  version      = {v1.0.1},
+  doi          = {10.5281/zenodo.3457446},
+  url          = {https://doi.org/10.5281/zenodo.3457446},
   license      = {CC0-1.0},
 }
 ```
