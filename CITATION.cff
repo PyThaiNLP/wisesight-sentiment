@@ -27,10 +27,10 @@ authors:
 - family-names: "Udomcharoenchaikit"
   given-names: "Can"
   orcid: "https://orcid.org/0000-0002-7090-0536"
-title: "PyThaiNLP/wisesight-sentiment: First release"
+title: "Wisesight Sentiment Corpus with Word Tokenization Label"
 version: v1.0.1
 license: CC0-1.0
 identifiers:
   - type: doi
     value: 10.5281/zenodo.3457446
-date-released: 2024-11-06
+date-released: 2020-12-01
