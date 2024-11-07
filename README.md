@@ -165,7 +165,7 @@ reflect their personal opinions on the content.
 
 Please cite the following if you make use of the dataset:
 
-> Arthit Suriyawongkul, Ekapol Chuangsuwanich, Pattarawat Chormai, Nitchakarn Chantarapratin, Ponrawee Prasertsom, Jitkapat Sawatphol, Nozomi Yamada, Attapol Rutherford, Charin Polpanumas, and Can Udomcharoenchaikit. 2024. **PyThaiNLP/Wisesight Sentiment Corpus with Word Tokenization Label (Version 1.1)** November.
+> Suriyawongkul, Arthit, Ekapol Chuangsuwanich, Pattarawat Chormai, Nitchakarn Chantarapratin, Ponrawee Prasertsom, Jitkapat Sawatphol, Nozomi Yamada, Attapol Rutherford, Charin Polpanumas, and Can Udomcharoenchaikit. “PyThaiNLP/Wisesight Sentiment Corpus with Word Tokenization Label”. Zenodo, 7 November 2024. <https://doi.org/10.5281/zenodo.3457446>.
 
 BibTeX:
 
