@@ -105,7 +105,7 @@
                 "Long non-Thai messages are removed. Duplicated message (exact match) are removed.",
                 "Sentiment value annotation is added, using the following methodology.",
                 "Sentiment values are assigned by human annotators.",
-                "A human annotator put his/her best effort to assign just one label, out of three, to a message.",
+                "A human annotator put his/her best effort to assign just one label, out of four, to a message.",
                 "A message can be ambiguous. When possible, the judgement will be based solely on the text itself.",
                 "In some situation, like when the context is missing, the annotator may have to rely on his/her own world knowledge and just guess.",
                 "In some cases, the human annotator may have access to the message's context, like an image. These additional information are not included as part of this corpus.",

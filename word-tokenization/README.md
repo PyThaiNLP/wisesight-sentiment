@@ -7,14 +7,14 @@ SPDX-License-Identifier: CC0-1.0
 This directory contains samples of Thai social media text, tokenized by humans.
 These samples are randomly drawn from the full [Wisesight Sentiment Corpus](https://github.com/PyThaiNLP/wisesight-sentiment).
 
-For `wisesight-160`, we drawn 40 samples for each label. And 250 samples each for `wisesight-1000`. 
+For `wisesight-160`, we drew 40 samples for each label. And 250 samples each for `wisesight-1000`.
 
 **Remark:** We removed a couple of samples from wiseight-1000 because they look like spam.
 
-Althought we have two sets of data, we recommend to use **wisesight-1000** because it contains more samples.
-Hence, its evaluation is more respresentative and reliable.
+Although we have two sets of data, we recommend to use **wisesight-1000** because it contains more samples.
+Hence, its evaluation is more representative and reliable.
 
-Because these samples are representative of real world content, we believe having these annotaed samples will allow the community to robustly evaluate tokenization algorithms.
+Because these samples are representative of real world content, we believe having these annotated samples will allow the community to robustly evaluate tokenization algorithms.
 
 ## Acknowledgement
 
