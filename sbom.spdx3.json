@@ -46,6 +46,23 @@
         },
         {
             "creationInfo": "_:creationinfo",
+            "externalIdentifier": [
+                {
+                    "externalIdentifierType": "other",
+                    "identifier": "wisesight",
+                    "identifierLocator": [
+                        "https://github.com/wisesight/"
+                    ],
+                    "issuingAuthority": "GitHub",
+                    "type": "ExternalIdentifier"
+                }
+            ],
+            "name": "Wisesight (Thailand) Co., Ltd.",
+            "spdxId": "https://wisesight.com/",
+            "type": "Organization"
+        },
+        {
+            "creationInfo": "_:creationinfo",
             "profileConformance": [
                 "core",
                 "dataset"
@@ -117,20 +134,22 @@
             "description": "Social media messages in Thai language with sentiment label (positive, neutral, negative, question). Contains 26,737 messages. Released to public domain under Creative Commons Zero v1.0 Universal license. More characteristics of the data can be explored by this notebook: https://github.com/PyThaiNLP/wisesight-sentiment/blob/master/exploration.ipynb.",
             "name": "PyThaiNLP/Wisesight Sentiment Corpus with Word Tokenization Label",
             "originatedBy": [
-                "https://pythainlp.org/"
+                "https://pythainlp.org/",
+                "https://wisesight.com/"
             ],
             "releaseTime": "2024-11-06T19:30:00Z",
+            "software_copyrightText": "Dedicated to the public domain under CC0 1.0 Universal by Wisesight (Thailand) Co., Ltd. and PyThaiNLP project.",
             "software_downloadLocation": "https://github.com/PyThaiNLP/wisesight-sentiment/releases",
             "software_homePage": "https://github.com/PyThaiNLP/wisesight-sentiment/",
-            "software_packageVersion": "1.0.1",
+            "software_packageVersion": "1.1",
             "software_primaryPurpose": "data",
             "spdxId": "https://spdx.org/spdxdocs/DatasetPackage/01-c69d31e2-43cd-4918-ab26-71f198a85cd1",
+            "summary": "Social media messages in Thai language with sentiment label. Contains 26,737 messages.",
             "type": "dataset_DatasetPackage"
         },
         {
             "contentType": "text/plain;charset=UTF-8",
             "creationInfo": "_:creationinfo",
-            "description": "License file for the dataset, which is CC0 1.0 Universal.",
             "name": "LICENSE",
             "originatedBy": [
                 "https://pythainlp.org/"
@@ -138,64 +157,64 @@
             "releaseTime": "2020-05-20T20:00:00Z",
             "software_primaryPurpose": "documentation",
             "spdxId": "https://spdx.org/spdxdocs/File/01-0710b717-a9c1-41de-af42-f41827c30ccc",
+            "summary": "License file for the dataset, which is CC0 1.0 Universal.",
             "type": "software_File"
         },
         {
             "contentType": "text/plain;charset=UTF-8",
             "creationInfo": "_:creationinfo",
-            "description": "Negative sentiment messages.",
             "name": "neg.txt",
             "originatedBy": [
-                "https://pythainlp.org/"
+                "https://wisesight.com/"
             ],
             "releaseTime": "2019-03-31T20:00:00Z",
             "software_primaryPurpose": "data",
             "spdxId": "https://spdx.org/spdxdocs/File/02-32d6319e-e619-42f8-8834-15792c780e7c",
+            "summary": "Negative sentiment messages. 14,561 messages.",
             "type": "software_File"
         },
         {
             "contentType": "text/plain;charset=UTF-8",
             "creationInfo": "_:creationinfo",
-            "description": "Neutral sentiment messages.",
             "name": "neu.txt",
             "originatedBy": [
-                "https://pythainlp.org/"
+                "https://wisesight.com/"
             ],
             "releaseTime": "2019-03-31T20:00:00Z",
             "software_primaryPurpose": "data",
             "spdxId": "https://spdx.org/spdxdocs/File/03-c2ba0c57-d1fd-4fad-8daa-227f86e62d70",
+            "summary": "Neutral sentiment messages. 6,823 messages.",
             "type": "software_File"
         },
         {
             "contentType": "text/plain;charset=UTF-8",
             "creationInfo": "_:creationinfo",
-            "description": "Positive sentiment messages.",
             "name": "pos.txt",
             "originatedBy": [
-                "https://pythainlp.org/"
+                "https://wisesight.com/"
             ],
             "releaseTime": "2019-03-31T20:00:00Z",
             "software_primaryPurpose": "data",
             "spdxId": "https://spdx.org/spdxdocs/File/04-743ce7f8-b4a6-476f-bf3a-eb10bea3d3b2",
+            "summary": "Positive sentiment messages. 4,778 messages",
             "type": "software_File"
         },
         {
             "contentType": "text/plain;charset=UTF-8",
             "creationInfo": "_:creationinfo",
-            "description": "Question messages.",
             "name": "q.txt",
             "originatedBy": [
-                "https://pythainlp.org/"
+                "https://wisesight.com/"
             ],
             "releaseTime": "2019-03-31T20:00:00Z",
             "software_primaryPurpose": "data",
             "spdxId": "https://spdx.org/spdxdocs/File/05-c9bfbf0d-8993-4a5c-ab98-22bd2e1044b6",
+            "summary": "Question messages. 575 messages.",
             "type": "software_File"
         },
         {
             "contentType": "text/plain;charset=UTF-8",
             "creationInfo": "_:creationinfo",
-            "description": "README file for the dataset. Contains information about the dataset, its collection process, and its annotation methodology.",
             "name": "README.md",
             "originatedBy": [
                 "https://pythainlp.org/"
@@ -203,14 +222,15 @@
             "releaseTime": "2024-11-06T19:30:00Z",
             "software_primaryPurpose": "documentation",
             "spdxId": "https://spdx.org/spdxdocs/File/06-c79a169b-df75-4a01-aa8b-713a5dc86441",
+            "summary": "README file for the dataset. Contains information about the dataset, its collection process, and its annotation methodology.",
             "type": "software_File"
         },
         {
             "creationInfo": "_:creationinfo",
-            "description": "DatasetPackage/01 contains LICENSE, neg.txt, neu.txt, pos.txt, q.txt, and README.md.",
             "from": "https://spdx.org/spdxdocs/DatasetPackage/01-c69d31e2-43cd-4918-ab26-71f198a85cd1",
             "relationshipType": "contains",
             "spdxId": "https://spdx.org/spdxdocs/Relationship/contains-01-805ea98f-16a4-4b37-b706-387403d39d2d",
+            "summary": "DatasetPackage/01 contains LICENSE, neg.txt, neu.txt, pos.txt, q.txt, and README.md.",
             "to": [
                 "https://spdx.org/spdxdocs/File/01-0710b717-a9c1-41de-af42-f41827c30ccc",
                 "https://spdx.org/spdxdocs/File/02-32d6319e-e619-42f8-8834-15792c780e7c",
@@ -223,10 +243,10 @@
         },
         {
             "creationInfo": "_:creationinfo",
-            "description": "README.md describes neg.txt, neu.txt, pos.txt, and q.txt.",
             "from": "https://spdx.org/spdxdocs/File/06-c79a169b-df75-4a01-aa8b-713a5dc86441",
             "relationshipType": "describes",
             "spdxId": "https://spdx.org/spdxdocs/Relationship/describes-01-d8785f35-497b-4e0a-8fac-d4eede982e4e",
+            "summary": "README.md describes neg.txt, neu.txt, pos.txt, and q.txt.",
             "to": [
                 "https://spdx.org/spdxdocs/File/02-32d6319e-e619-42f8-8834-15792c780e7c",
                 "https://spdx.org/spdxdocs/File/03-c2ba0c57-d1fd-4fad-8daa-227f86e62d70",
@@ -237,10 +257,10 @@
         },
         {
             "creationInfo": "_:creationinfo",
-            "description": "DatasetPackage/01 has a concluded license as CC0-1.0.",
             "from": "https://spdx.org/spdxdocs/DatasetPackage/01-c69d31e2-43cd-4918-ab26-71f198a85cd1",
             "relationshipType": "hasConcludedLicense",
             "spdxId": "https://spdx.org/spdxdocs/Relationship/concludedLicense-01-3cfe0c7d-1a2d-4609-b468-0b2c2ed50501",
+            "summary": "DatasetPackage/01 has a concluded license as CC0-1.0.",
             "to": [
                 "https://spdx.org/licenses/CC0-1.0"
             ],
@@ -248,10 +268,10 @@
         },
         {
             "creationInfo": "_:creationinfo",
-            "description": "DatasetPackage/01 has a declared license as CC0-1.0.",
             "from": "https://spdx.org/spdxdocs/DatasetPackage/01-c69d31e2-43cd-4918-ab26-71f198a85cd1",
             "relationshipType": "hasDeclaredLicense",
             "spdxId": "https://spdx.org/spdxdocs/Relationship/declaredLicense-01-fbc5f8d0-e7ab-45a2-b5b5-1cabe6e697ac",
+            "summary": "DatasetPackage/01 has a declared license as CC0-1.0.",
             "to": [
                 "https://spdx.org/licenses/CC0-1.0"
             ],

@@ -29,7 +29,7 @@ authors:
   given-names: "Can"
   orcid: "https://orcid.org/0000-0002-7090-0536"
 title: "PyThaiNLP/Wisesight Sentiment Corpus with Word Tokenization Label"
-version: v1.0.1
+version: v1.1
 license: CC0-1.0
 identifiers:
   - description: This is the collection of archived snapshots of all versions of the dataset
@@ -39,4 +39,4 @@ identifiers:
     type: doi
     value: "10.5281/zenodo.3457447"
 repository: "https://github.com/PyThaiNLP/wisesight-sentiment/"
-date-released: 2024-11-06
+date-released: 2024-11-07
