@@ -37,5 +37,5 @@ identifiers:
   - description: This is the archived snapshot of version 1.0 of the dataset
     type: doi
     value: "10.5281/zenodo.3457447"
-repository-code: "https://github.com/PyThaiNLP/wisesight-sentiment/"
+repository: "https://github.com/PyThaiNLP/wisesight-sentiment/"
 date-released: 2024-11-06
